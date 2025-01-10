@@ -1,0 +1,30 @@
+ qaabka koowaad baraakit iyo qaanso la aan
+-----------------------------------
+   <li class="nav-item">
+          <a class="nav-link"aria-current="page"  routerLink="home"routerLinkActive="active">Home</a>
+        </li>
+------------------------------------------------
+qaabka labaad / la socoto
+-----------------------------
+
+<li class="nav-item">
+<aclass="nav-link" aria-current="page"routerLink="/home" routerLinkActive="active">Home</a  >
+</li>
+--------------------------------
+qaabka sadaxaad
+---------------------
+   <li class="nav-item">
+          <a class="nav-link" aria-current="page"  routerLink="'home'"[routerLinkActive]="active"  >Home</a  >
+        </li>
+
+qaabka afaraad
+---------------------
+   <li class="nav-item">
+          <a class="nav-link" aria-current="page"  routerLink="['home']"[routerLinkActive]="active"  >Home</a  >
+        </li>
+
+routerLinkActiveOption
+---------------------
+   <li class="nav-item">
+          <a class="nav-link" aria-current="page"  routerLink="'home'"[routerLinkActive]="active" routerLinkOption ={exect=true>Home</a  >
+        </li>
